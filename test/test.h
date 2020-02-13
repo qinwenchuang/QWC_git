@@ -11,6 +11,11 @@ struct data{
 };
 
 
+struct Data{
+    data d1;
+    data d2;
+};
+
 class base{
 public:
     int get_age();
